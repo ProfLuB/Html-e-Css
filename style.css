@@ -1,0 +1,89 @@
+style.css> .cabecalho__titulo
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background-color: darkseagreen;
+	font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho__titulo {
+	background-color: forestgreen;
+	padding: 40px;
+}
+
+.cabecalho__titulo--dois {
+	font-weght: 300;
+}
+
+.cabecalho {
+	color: rgb(90, 50, 160);
+}
+
+.cabecalho__lista {
+	display: flex;
+	list-style-type: none;
+}
+
+.cabecalho__lista-item {
+	margin: 0 12px;
+}
+
+.cabecalho__lista-item a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.container-principal {
+	display: flex;
+	justify-content: safe center;
+	align-items: 20em 0;
+}
+
+.container-principal__imagem {
+	width: 40%;
+}
+
+.container-principal__titulo {
+	font: #BBBBBB;
+	font-size: 40px;
+}
+
+.cabecalho-principal__texto {
+	text-align: left;
+	font-size: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: rgb(200,120,150)
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	color:  rgb(200,120,130);
+}
+
+h3 {
+	text-align: left;
+	font-size: 30px;
+	color: #009080;
+}
+
+p {
+	text-align: left;
+	font-size: 18px;
+}
+
+#logo {
+	height:  250px;
+	border:  2px dotted skyblue;
+	margin-left:  450px;
+	padding: 15px;
+}
